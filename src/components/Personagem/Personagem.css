@@ -1,0 +1,9 @@
+/*Card Template*/
+.card{width: 100%;padding: 10px 20px 20px;border-bottom: 1px solid rgb(172, 172, 172);}
+.card .card-header{display: flex;justify-content: space-between;padding: 10px;margin-bottom: 20px;}
+.card .card-header h2{font-size: 2rem;margin:0;line-height: 1.5rem;}
+.card .card-header h2 small{font-size: 1.5rem;font-weight: 200;color: rgb(138, 138, 138);}
+.card .card-header h3 {margin:0;line-height: 1.5rem;}
+.card .card-body ul{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.card .card-body li{display: block; flex: 1;min-width: 400px;padding: 5px 10px; font-size: 1.5rem;}
+.card .card-footer ul {display:flex;justify-content: center;margin-top: 20px;}

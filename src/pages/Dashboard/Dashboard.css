@@ -1,0 +1,23 @@
+/*Configuração Geral*/
+body,*{box-sizing: border-box;margin: 0px; padding: 0px; }
+body{font-family: Arial, Helvetica, sans-serif;background:url('../../assets/images/bg.jpg')no-repeat center; background-attachment: fixed;}
+ul{list-style: none; padding: 0;}
+.container{width: 100%; max-width: 1000px;margin: auto;padding:20px 10px;
+     background-color: #fffd;box-shadow: 0 0 6px #0003;}
+h1{text-align: center;margin:0 0 20px;}
+
+/*Logo*/
+.logo{width: 100%;display: flex;flex-direction: column;align-items: center;}
+.logo-img{width: 300px;height: 200px;background: url('../../assets/images/logo.png') no-repeat center center; background-size: contain;}
+
+/*Botões*/
+.btn{padding: 10px;border-radius: 4px;border: none;color: white;font-weight: 500;font-size:1.2rem;cursor: pointer;}
+
+/*Botão de Sessão*/
+.btn-session{margin:10px;}
+
+/*Botão Mais*/
+.btn-more{box-shadow: 1px 1px 2px #0409;background-color: green;display: block;width: 100%;}
+.btn-more:hover{background-color: rgb(14, 99, 14);}
+
+.inactive,  .inactive:hover{background-color: rgb(138, 136, 136);color:rgb(161, 161, 161);box-shadow: 1px 1px 2px rgba(61, 61, 61, 0.6);cursor: not-allowed;}
