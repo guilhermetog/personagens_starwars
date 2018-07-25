@@ -7,7 +7,6 @@ import ReactDOM from 'react-dom';
 //Config
 import Roteamento from './routes'
 import {BrowserRouter} from 'react-router-dom'
-import registerServiceWorker from './registerServiceWorker';
 
 
 //Redux
@@ -25,4 +24,3 @@ ReactDOM.render(
 
 
 
-registerServiceWorker();
